@@ -1,6 +1,6 @@
 {application, auth0_sample,
- [{description, "An OTP application"},
-  {vsn, "0.1.0"},
+ [{description, "Erlang OTP application utilising the Auth0 Authentication API."},
+  {vsn, "0.1.1"},
   {registered, []},
   {mod, { auth0_sample_app, []}},
   {applications,
@@ -10,7 +10,7 @@
   {env,[]},
   {modules, []},
 
-  {maintainers, []},
+  {maintainers, ["Robin Percy"]},
   {licenses, ["Apache 2.0"]},
-  {links, []}
+  {links, ["https://github.com/rbnpercy", "https://twitter.com/rbin"]}
  ]}.

@@ -28,3 +28,14 @@ stop(_State) ->
 %%====================================================================
 %% Internal functions
 %%====================================================================
+
+whoa() ->
+  try
+    talk(),
+    _Knight = "None shall pass!",
+    _ = [N*2 || N <- lists:seq(1,100)],
+    throw(up),
+    _WillReturnThis = tequila
+  catch
+    Exception:Reason -> {caught, Exception, Reason}
+  end.
