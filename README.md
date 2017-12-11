@@ -1,5 +1,7 @@
-auth0_sample
+auth0_sample - WIP
 ============
+
+**UNFINISHED / WORK IN PROGRESS / ON HOLD (for now)**
 
 Baseline / Barebone Erlang application utilising Auth0 and OTP.
 
